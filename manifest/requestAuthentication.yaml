@@ -10,3 +10,5 @@ spec:
   jwtRules:
   - issuer: "testing@secure.istio.io"
     jwksUri: "https://raw.githubusercontent.com/istio/istio/release-1.12/security/tools/jwt/samples/jwks.json"
+  - issuer: "istio@cloudready.club"
+    jwksUri: "https://raw.githubusercontent.com/ylasmak/jwks/main/jwks.mini.json"  
